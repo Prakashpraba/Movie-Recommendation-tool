@@ -1,4 +1,4 @@
-#🎭🎬  Movie-Recommendation-tool
+# 🎭🎬  Movie-Recommendation-tool
 uses a predefined dataset of Amazon prime movie title and genres to recommend movies of similar genres using K-means algorithm
 # ✏️ Goals
 To develop a movie and TV Show recommendation function, the user has the need to search for a movie or TV Show based on its name and receive recommendations and be able to choose the amount of recommendations.
