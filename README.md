@@ -30,8 +30,9 @@ Of all the ones I tested, the one that pleased the most and brought the best num
 
 The "QueryRecommends" class has the following data:
 
-dataset: The data we have from movies and TV Shows
-name: The name of the movie that the user will choose
-top_n: The amount of results, whether the client wants top 10 movies or top 20.
+* dataset: The data we have from movies and TV Shows
+* name: The name of the movie that the user will choose
+*top_n: The amount of results, whether the client wants top 10 movies or top 20.
+
 Now entering the function, I do an internal search of the data set by performing a filter between the title and the name of the movie that the customer chose. Then I transform the text so that we don't have a problem with the client entering, this point can be better worked on. But as we are testing this functionality, it was pleasant that way. Then I restart my index, because the filter result will come with the index of the input set. Then I use the "at" method to capture the value of my "clusters_genre" column, which I will then perform a new filter from that result to obtain other similar values, then I choose the output columns that are "title " and "gender_type" and then the number of outputs you want.
 - - - -
